@@ -4,3 +4,8 @@
 /npm-debug.log
 .DS_Store
 .prettierignore
+# Capacitor / Android generated files
+android/.gradle/
+android/**/build/
+android/local.properties
+android/.idea/

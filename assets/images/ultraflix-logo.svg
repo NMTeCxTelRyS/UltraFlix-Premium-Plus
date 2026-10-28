@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
+  <defs>
+    <linearGradient id="play" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff454d"/>
+      <stop offset="100%" stop-color="#b8000b"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#bfc3ca"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="260" rx="24" fill="#080808"/>
+
+  <path d="M72 66 L72 194 L190 130 Z"
+        fill="#e50914" opacity=".35" filter="url(#glow)"/>
+  <path d="M82 66 L82 194 L200 130 Z" fill="url(#play)"/>
+  <path d="M99 91 L99 169 L170 130 Z" fill="#fff" opacity=".14"/>
+
+  <text x="226" y="139"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="83" font-weight="800"
+        letter-spacing="-4" fill="url(#silver)">Ultra<tspan fill="#e50914">Flix</tspan></text>
+
+  <rect x="231" y="164" width="438" height="2" rx="1" fill="#e50914"/>
+
+  <text x="236" y="208"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="29" font-weight="600"
+        letter-spacing="12" fill="#dedede">PREMIUM</text>
+  <text x="650" y="209"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="39" font-weight="800" fill="#e50914">+</text>
+</svg>

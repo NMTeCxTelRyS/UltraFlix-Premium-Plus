@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">UltraFlix Premium+</string>
+    <string name="title_activity_main">UltraFlix Premium+</string>
+    <string name="package_name">com.ultraflix.premium</string>
+    <string name="custom_url_scheme">com.ultraflix.premium</string>
+</resources>

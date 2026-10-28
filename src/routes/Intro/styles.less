@@ -320,3 +320,388 @@
         }
     }
 }
+/* UltraFlix Premium+ — cinematic login theme */
+
+.intro-container {
+    min-height: 100%;
+    padding: 3rem 1.5rem;
+    box-sizing: border-box;
+    background: #080808;
+    color: #f5f5f5;
+
+    .background-container {
+        background:
+            radial-gradient(ellipse at 50% 10%, rgba(130, 0, 12, 0.24), transparent 52%),
+            radial-gradient(ellipse at 50% 100%, rgba(60, 0, 0, 0.18), transparent 55%),
+            #080808;
+        filter: none;
+    }
+
+    .heading-container {
+        margin-bottom: 3rem;
+
+        .logo-container {
+            margin-bottom: 1.5rem;
+
+            .logo {
+                max-width: min(80vw, 22rem);
+                height: auto;
+                max-height: 6rem;
+                object-fit: contain;
+                opacity: 1;
+                filter: drop-shadow(0 0 18px rgba(229, 9, 20, 0.18));
+            }
+        }
+
+        .title-container {
+            color: #ffffff;
+            text-align: center;
+            font-size: clamp(1.8rem, 4vw, 3rem);
+            font-weight: 800;
+            letter-spacing: -0.04em;
+        }
+
+        .slogan-container {
+            margin-top: 0.5rem;
+            color: #b8b0b0;
+            text-align: center;
+            font-size: clamp(1rem, 2.5vw, 1.25rem);
+            opacity: 1;
+        }
+    }
+
+    .content-container {
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 2rem;
+        max-width: 52rem;
+        margin: 0 auto;
+
+        .form-container,
+        .options-container {
+            width: min(100%, 22rem);
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .credentials-text-input {
+            min-height: 3.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 0.65rem;
+            background: #151515;
+            color: #ffffff;
+            transition: border-color 160ms ease, box-shadow 160ms ease;
+
+            &::placeholder {
+                color: #8f8888;
+            }
+
+            &:hover,
+            &:focus {
+                outline: 1px solid #e50914;
+                border-color: #e50914;
+                background: #191111;
+                box-shadow: 0 0 0 3px rgba(229, 9, 20, 0.12);
+            }
+        }
+
+        .form-button {
+            width: 100%;
+            min-height: 3.5rem;
+            height: auto;
+            box-sizing: border-box;
+            border-radius: 0.65rem;
+            padding: 0.8rem 1rem;
+            transition: background-color 160ms ease, transform 160ms ease;
+
+            .label {
+                font-size: 1rem;
+                font-weight: 700;
+            }
+
+            &:hover {
+                transform: translateY(-1px);
+            }
+        }
+
+        .submit-button,
+        .guest-login-button,
+        .signup-form-button,
+        .login-form-button {
+            outline: none;
+            background: #e50914;
+            color: #ffffff;
+
+            .label {
+                color: #ffffff;
+            }
+
+            &:hover,
+            &:focus {
+                outline: 2px solid rgba(229, 9, 20, 0.65);
+                background: #ff202b;
+
+                .label {
+                    color: #ffffff;
+                }
+            }
+        }
+
+        .error-message {
+            color: #ff7379;
+        }
+
+        .forgot-password-link-container .forgot-password-link {
+            color: #ff777d;
+
+            &:hover {
+                color: #ffffff;
+            }
+        }
+
+        .options-container {
+            .facebook-button {
+                border-radius: 0.65rem;
+            }
+
+            .apple-button {
+                border-radius: 0.65rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .intro-container {
+        justify-content: flex-start;
+        padding: 2.5rem 1.25rem;
+
+        .heading-container {
+            margin-bottom: 2rem;
+
+            .logo-container {
+                margin-bottom: 1.25rem;
+
+                .logo {
+                    max-width: min(75vw, 18rem);
+                    max-height: 5rem;
+                }
+            }
+        }
+
+        .content-container {
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+
+            .form-container,
+            .options-container {
+                width: 100%;
+                max-width: 24rem;
+            }
+        }
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .intro-container .content-container .form-button {
+        transition: none;
+
+        &:hover {
+            transform: none;
+        }
+    }
+}
+
+/* UltraFlix Premium+ — cinematic login theme */
+
+.intro-container {
+    min-height: 100%;
+    padding: 3rem 1.5rem;
+    box-sizing: border-box;
+    background: #080808;
+    color: #f5f5f5;
+
+    .background-container {
+        background:
+            radial-gradient(ellipse at 50% 10%, rgba(130, 0, 12, 0.24), transparent 52%),
+            radial-gradient(ellipse at 50% 100%, rgba(60, 0, 0, 0.18), transparent 55%),
+            #080808;
+        filter: none;
+    }
+
+    .heading-container {
+        margin-bottom: 3rem;
+
+        .logo-container {
+            margin-bottom: 1.5rem;
+
+            .logo {
+                max-width: min(80vw, 22rem);
+                height: auto;
+                max-height: 6rem;
+                object-fit: contain;
+                opacity: 1;
+                filter: drop-shadow(0 0 18px rgba(229, 9, 20, 0.18));
+            }
+        }
+
+        .title-container {
+            color: #ffffff;
+            text-align: center;
+            font-size: clamp(1.8rem, 4vw, 3rem);
+            font-weight: 800;
+            letter-spacing: -0.04em;
+        }
+
+        .slogan-container {
+            margin-top: 0.5rem;
+            color: #b8b0b0;
+            text-align: center;
+            font-size: clamp(1rem, 2.5vw, 1.25rem);
+            opacity: 1;
+        }
+    }
+
+    .content-container {
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 2rem;
+        max-width: 52rem;
+        margin: 0 auto;
+
+        .form-container,
+        .options-container {
+            width: min(100%, 22rem);
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .credentials-text-input {
+            min-height: 3.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 0.65rem;
+            background: #151515;
+            color: #ffffff;
+            transition: border-color 160ms ease, box-shadow 160ms ease;
+
+            &::placeholder {
+                color: #8f8888;
+            }
+
+            &:hover,
+            &:focus {
+                outline: 1px solid #e50914;
+                border-color: #e50914;
+                background: #191111;
+                box-shadow: 0 0 0 3px rgba(229, 9, 20, 0.12);
+            }
+        }
+
+        .form-button {
+            width: 100%;
+            min-height: 3.5rem;
+            height: auto;
+            box-sizing: border-box;
+            border-radius: 0.65rem;
+            padding: 0.8rem 1rem;
+            transition: background-color 160ms ease, transform 160ms ease;
+
+            .label {
+                font-size: 1rem;
+                font-weight: 700;
+            }
+
+            &:hover {
+                transform: translateY(-1px);
+            }
+        }
+
+        .submit-button,
+        .guest-login-button,
+        .signup-form-button,
+        .login-form-button {
+            outline: none;
+            background: #e50914;
+            color: #ffffff;
+
+            .label {
+                color: #ffffff;
+            }
+
+            &:hover,
+            &:focus {
+                outline: 2px solid rgba(229, 9, 20, 0.65);
+                background: #ff202b;
+
+                .label {
+                    color: #ffffff;
+                }
+            }
+        }
+
+        .error-message {
+            color: #ff7379;
+        }
+
+        .forgot-password-link-container .forgot-password-link {
+            color: #ff777d;
+
+            &:hover {
+                color: #ffffff;
+            }
+        }
+
+        .options-container {
+            .facebook-button {
+                border-radius: 0.65rem;
+            }
+
+            .apple-button {
+                border-radius: 0.65rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .intro-container {
+        justify-content: flex-start;
+        padding: 2.5rem 1.25rem;
+
+        .heading-container {
+            margin-bottom: 2rem;
+
+            .logo-container {
+                margin-bottom: 1.25rem;
+
+                .logo {
+                    max-width: min(75vw, 18rem);
+                    max-height: 5rem;
+                }
+            }
+        }
+
+        .content-container {
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+
+            .form-container,
+            .options-container {
+                width: 100%;
+                max-width: 24rem;
+            }
+        }
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .intro-container .content-container .form-button {
+        transition: none;
+
+        &:hover {
+            transform: none;
+        }
+    }
+}
